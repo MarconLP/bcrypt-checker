@@ -1,0 +1,27 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.functions {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  display: block;
+}
+
+button {
+  display: block;
+}
+
+p.output {
+  margin-top: 5em;
+}

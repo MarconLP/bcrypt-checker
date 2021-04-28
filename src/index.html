@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="render.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>💖 Bcrypt Checker!</h1>
+        <p>Hash or check Bcrypt hashes.</p>
+    </div>
+
+    <div class="functions">
+        <div class="hash">
+            <p>Hash Password</p>
+            <label for="hashInput"></label>
+            <input type="text" name="input" id="hashInput" placeholder="Password">
+            <button class="hash">Hash</button>
+        </div>
+        <hr>
+        <div class="check">
+            <p>Check Password</p>
+            <label for="checkHash"></label>
+            <input type="text" name="input" id="checkHash" placeholder="Hash">
+            <label for="checkPassword"></label>
+            <input type="text" name="input" id="checkPassword" placeholder="Password">
+            <button class="hash">Check</button>
+        </div>
+    </div>
+    <p class="output"></p>
+</div>
+
+</body>
+</html>
